@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/placarVitoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placar1"
+        android:padding="16dp"
+        android:textSize="@dimen/textoGrande"
+        android:layout_toEndOf="@+id/letraX"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/letraX"
+        android:text="@string/xDoPlacar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="@dimen/textoGrande"
+        />
+    <TextView
+        android:id="@+id/placarBahia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/letraX"
+        android:layout_centerVertical="true"
+        android:text="@string/placar2"
+        android:padding="16dp"
+        android:textSize="@dimen/textoGrande"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahia"
+        android:textColor="@color/grayTime"
+        android:textSize="24sp"
+        android:layout_below="@+id/placarBahia"
+        android:layout_alignStart="@+id/placarBahia"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vitória"
+        android:textColor="@color/grayTime"
+        android:textSize="24sp"
+        android:layout_below="@+id/placarVitoria"
+        android:layout_alignStart="@+id/placarVitoria"
+
+
+
+        />
+
+</RelativeLayout>
