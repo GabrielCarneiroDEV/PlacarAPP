@@ -28,7 +28,7 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/placarBahia"
+        android:id="@+id/scoreTime1TXT"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -42,14 +42,14 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="16dp"
-        android:layout_alignStart="@+id/placarBahia"
-        android:layout_alignTop="@+id/placarBahia"
+        android:layout_alignStart="@+id/scoreTime1TXT"
+        android:layout_alignTop="@+id/scoreTime1TXT"
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
         android:src="@drawable/ic_ball" />
 
     <TextView
-        android:id="@+id/placarVitoria"
+        android:id="@+id/scoreTime2TXT"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -65,17 +65,17 @@
     <ImageView
         android:layout_width="16dp"
         android:layout_height="16dp"
-        android:layout_alignStart="@+id/placarVitoria"
-        android:layout_alignTop="@+id/placarVitoria"
-        android:layout_marginStart="4dp"
+        android:layout_alignEnd="@+id/scoreTime2TXT"
+        android:layout_alignTop="@+id/scoreTime2TXT"
+        android:layout_marginEnd="4dp"
         android:layout_marginTop="4dp"
         android:src="@drawable/ic_ball" />
     <TextView
         android:id="@+id/setScoreTime1"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/placarBahia"
-        android:layout_alignStart="@+id/placarBahia"
+        android:layout_below="@+id/scoreTime1TXT"
+        android:layout_alignStart="@+id/scoreTime1TXT"
         android:background="#99006ABC"
         android:gravity="center"
         android:text="1"
@@ -89,8 +89,8 @@
         android:id="@+id/setScoreTime2"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/placarVitoria"
-        android:layout_alignStart="@+id/placarVitoria"
+        android:layout_below="@+id/scoreTime2TXT"
+        android:layout_alignStart="@+id/scoreTime2TXT"
         android:background="#99006ABC"
         android:gravity="center"
         android:text="1"
@@ -104,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/setScoreTime1"
-        android:layout_alignStart="@+id/placarBahia"
+        android:layout_alignStart="@+id/scoreTime1TXT"
         android:text="Bahia"
         android:textColor="@color/grayTime"
         android:textSize="24sp"
@@ -116,7 +116,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/setScoreTime2"
-        android:layout_alignStart="@+id/placarVitoria"
+        android:layout_alignStart="@+id/scoreTime2TXT"
         android:text="Vitória"
         android:textColor="@color/grayTime"
         android:textSize="24sp"

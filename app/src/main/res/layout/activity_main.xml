@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
     <TextView
-        android:id="@+id/placarVitoria"
+        android:id="@+id/scoreTime2TXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/placar1"
@@ -22,7 +22,7 @@
         android:textSize="@dimen/textoGrande"
         />
     <TextView
-        android:id="@+id/placarBahia"
+        android:id="@+id/scoreTime1TXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toStartOf="@+id/letraX"
@@ -38,8 +38,8 @@
         android:text="Bahia"
         android:textColor="@color/grayTime"
         android:textSize="24sp"
-        android:layout_below="@+id/placarBahia"
-        android:layout_alignStart="@+id/placarBahia"
+        android:layout_below="@+id/scoreTime1TXT"
+        android:layout_alignStart="@+id/scoreTime1TXT"
 
 
 
@@ -51,8 +51,8 @@
         android:text="Vitória"
         android:textColor="@color/grayTime"
         android:textSize="24sp"
-        android:layout_below="@+id/placarVitoria"
-        android:layout_alignStart="@+id/placarVitoria"
+        android:layout_below="@+id/scoreTime2TXT"
+        android:layout_alignStart="@+id/scoreTime2TXT"
 
 
 
