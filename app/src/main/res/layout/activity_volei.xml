@@ -71,14 +71,14 @@
         android:layout_marginTop="4dp"
         android:src="@drawable/ic_ball" />
     <TextView
-        android:id="@+id/setScoreTime1"
+        android:id="@+id/setScoreTime1TXT"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/scoreTime1TXT"
         android:layout_alignStart="@+id/scoreTime1TXT"
         android:background="#99006ABC"
         android:gravity="center"
-        android:text="1"
+        android:text="0"
         android:textColor="@color/white"
         android:textSize="24sp"
 
@@ -86,14 +86,14 @@
         />
 
     <TextView
-        android:id="@+id/setScoreTime2"
+        android:id="@+id/setScoreTime2TXT"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/scoreTime2TXT"
         android:layout_alignStart="@+id/scoreTime2TXT"
         android:background="#99006ABC"
         android:gravity="center"
-        android:text="1"
+        android:text="0"
         android:textColor="@color/white"
         android:textSize="24sp"
 
@@ -103,7 +103,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/setScoreTime1"
+        android:layout_below="@+id/setScoreTime1TXT"
         android:layout_alignStart="@+id/scoreTime1TXT"
         android:text="Bahia"
         android:textColor="@color/grayTime"
@@ -115,7 +115,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/setScoreTime2"
+        android:layout_below="@+id/setScoreTime2TXT"
         android:layout_alignStart="@+id/scoreTime2TXT"
         android:text="Vitória"
         android:textColor="@color/grayTime"

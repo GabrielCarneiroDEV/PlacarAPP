@@ -3,4 +3,6 @@
     <string name="placar1">0</string>
     <string name="xDoPlacar">X</string>
     <string name="placar2">0</string>
+    <string name="futeboltxt">futebol</string>
+    <string name="voleiTXT">Volei</string>
 </resources>
