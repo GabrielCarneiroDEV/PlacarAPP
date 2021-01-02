@@ -40,6 +40,8 @@
         android:textSize="@dimen/textoGrande" />
 
     <ImageView
+        android:id="@+id/service1IMG"
+        android:visibility="gone"
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:layout_alignStart="@+id/scoreTime1TXT"
@@ -63,6 +65,8 @@
 
 
     <ImageView
+        android:id="@+id/service2IMG"
+        android:visibility="gone"
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:layout_alignEnd="@+id/scoreTime2TXT"
@@ -70,6 +74,7 @@
         android:layout_marginEnd="4dp"
         android:layout_marginTop="4dp"
         android:src="@drawable/ic_ball" />
+
     <TextView
         android:id="@+id/setScoreTime1TXT"
         android:layout_width="100dp"
@@ -101,6 +106,7 @@
         />
 
     <TextView
+        android:id="@+id/time2TXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/setScoreTime1TXT"
@@ -113,6 +119,7 @@
         />
 
     <TextView
+        android:id="@+id/time1TXT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/setScoreTime2TXT"
